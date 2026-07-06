@@ -1,0 +1,43 @@
+body{
+    background-color: bisque;
+}
+.theme{
+    background-color: white;
+    margin: 0 auto;
+    width: 400px;
+}
+.emeil h2{
+    color: rgb(181, 181, 181);
+}
+.emeil h3{
+    color: rgb(181, 181, 181);
+}
+
+.check_container{
+    display: flex;
+}
+
+.check_container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.emeil_check{
+    position: absolute;
+    width: 65px;
+    height: 25px;
+    background-color: white;
+    border: 2px solid grey;
+    margin-left: 250px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.check_container:hover input ~ .emeil_check {
+  background-color: rgb(181, 181, 181);;
+}
+.check_container input:checked ~ .emeil_check {
+  background-color: #2196F3;
+}
