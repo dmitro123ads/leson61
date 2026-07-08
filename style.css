@@ -5,6 +5,7 @@ body{
     background-color: white;
     margin: 0 auto;
     width: 400px;
+    padding: 20px;
 }
 .emeil h2{
     color: rgb(181, 181, 181);
@@ -71,4 +72,19 @@ body{
 }
 .check_container input:checked ~ .emeil_check_back{
     transform: translateX(25px);
+}
+button{
+    background-color: #2196F3;
+    color: white;
+    border-radius: 12px;
+    height: 40px;
+    width: 340px;
+    border: none;
+    justify-self: center;
+    cursor: pointer;
+    margin-top: 30px;
+
+}
+.butn{
+    justify-self: center;
 }
